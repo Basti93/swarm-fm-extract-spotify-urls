@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 
-waitForKeyElements ("a[ng-href^='spotify:album:']", extractUrls, true);
+waitForKeyElements ("a[ng-href^='spotify:album:']", extractUrls);
 
 function extractUrls (albums) {
 
